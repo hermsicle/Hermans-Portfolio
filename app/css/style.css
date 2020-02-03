@@ -1,3 +1,57 @@
-body {
-    background-color: greenyellow;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 10vh;
+    background-color: #3E7BFF;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.name-container {
+    border: 1px solid black;
+    display:flex;
+    align-items: center;
+}
+
+.name {
+    border: 1px solid black;
+}
+.myName {
+    color: white;
+}
+.role{
+    color: white;
+}
+
+.info-container {
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    border: 1px solid black;
+}
+
+.about {
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+
+.about:hover {
+    color: greenyellow;
+}
+
+.portfolio {
+    text-decoration: none;
+    color: white;
+}
+
+.portfolio:hover {
+    color: greenyellow;
 }
