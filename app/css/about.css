@@ -1,0 +1,32 @@
+main {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.main-image {
+    display: flex;
+    border: 1px solid black;
+    height: 250px;
+    width: 600px;
+}
+.image {
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    display: flex;
+    align-self: center;
+}
+
+.p {
+    font-size: 14pt;
+    margin-top: 50px;
+}
