@@ -7,6 +7,11 @@ router.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../app/index.html'))
 })
 
+//Route to about.html file
+router.get('/about', (req, res) => {
+    res.sendFile(path.join(__dirname, '../app/about.html'))
+})
+
 
 
 

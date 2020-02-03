@@ -55,3 +55,37 @@ header {
 .portfolio:hover {
     color: greenyellow;
 }
+
+main {
+    height: 80vh;
+}
+
+footer {
+    height: 10vh;
+    background-color: #3E7BFF;
+    display: flex;
+    justify-content: center;
+}
+.footer-container{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: center;
+}
+.github {
+    display: flex;
+    margin-bottom: 10px;
+}
+.github-link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+.linkedin {
+    display: flex;
+}
+.linkedin-link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
